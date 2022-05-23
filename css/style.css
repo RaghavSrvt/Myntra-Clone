@@ -237,7 +237,18 @@ footer{
     height: 80px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     font-family: 'Myntra';
     border: 1px solid #eaeaec;
+}
+
+footer a{
+    text-decoration: none;
+    color: #243a98;
+}
+
+footer a:hover{
+    text-decoration: underline 1px black;
 }
